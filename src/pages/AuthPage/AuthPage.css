@@ -1,0 +1,98 @@
+.wrapper {
+  min-height: 100vh;
+  background: #f0f4f9;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.topbar {
+  height: 60px;
+  background: white;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  width: 34px;
+  height: 34px;
+  background: linear-gradient(135deg, #1a56db, #3b82f6);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.logo-blue {
+  color: #1a56db;
+}
+
+.page-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.card {
+  width: 900px;
+  display: flex;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.08);
+}
+
+.side {
+  width: 40%;
+  padding: 40px;
+  color: white;
+  background: linear-gradient(
+    160deg,
+    #1a56db,
+    #1e40af,
+    #1e3a8a
+  );
+}
+
+.form-side {
+  flex: 1;
+  padding: 40px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background: #1a56db;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
